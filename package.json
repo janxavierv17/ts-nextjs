@@ -21,7 +21,7 @@
 		"*.{js,jsx,ts,tsx}": [
 			"eslint --fix",
 			"prettier --write",
-			"git commit"
+			"git add"
 		]
 	},
 	"dependencies": {
