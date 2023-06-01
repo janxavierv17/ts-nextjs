@@ -6,7 +6,6 @@ describe("productsList component", () => {
     render(await ProductsLayout());
 
     const image = screen.getByRole("img");
-
     expect(image).oBeInTheDocument();
   });
 });
